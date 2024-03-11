@@ -11,12 +11,12 @@
     <title>Personal Portfolio</title>
 </head>
 
-<body onload="showMessage()">
+<body>
     <nav>
         <div class="nav-links">
-            <a class="selected" href="index.html">Home</a>
-            <a href="works.html">Works</a>
-            <a href="about.html">About</a>
+            <a id="home" class="selected" href="index.html">Home</a>
+            <a id="works" href="works.html">Works</a>
+            <a id="about" href="about.html">About</a>
         </div>
         <div>
             <select class="selector" id="lang">
@@ -65,12 +65,6 @@
         </div>
         <p>Copyright ©2024, All rights reserved.</p>
     </footer>
-
-    <script>
-         function showMessage() {
-            document.getElementById('title').textContent =  myfunc("index.title");
-        }
-    </script>
 </body>
 
 </html>

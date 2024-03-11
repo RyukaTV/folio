@@ -3,7 +3,6 @@ import messages from './lang/messages.js';
 function myfunc(key) {
     const keys= key.split('.');
     keys.unshift(document.getElementById("lang").value)
-    console.log(keys)
     let langObject= messages;
     for (let i = 0; i < keys.length; i++) {
         langObject = langObject[keys[i]];
@@ -15,6 +14,15 @@ function myfunc(key) {
     return langObject;
 }
 
-console.log(myfunc("index.title"))
+function showMessage() {
+    document.getElementById('title').innerHTML= myfunc("index.title");
+    document.getElementById('home').innerHTML= myfunc("navbar.home");
+    document.getElementById('works').innerHTML= myfunc("navbar.works");
+    document.getElementById('about').innerHTML= myfunc("navbar.about");
+}
 
-export { myfunc };
+document.body.addEventListener("DOMContentLoaded", showMessage());
+
+document.getElementById("lang").addEventListener("change", (event) => {
+    showMessage();
+});
