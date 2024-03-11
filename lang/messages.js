@@ -2,11 +2,15 @@ const messages= {
     fr: {
         navbar:{
             home: "Accueil",
-            works: "Travaux",
+            works: "Réalisations",
             about: "à Propos"
         },
         index:{
             title: "Bonjour, je m'appelle Gabin, <br>Développeur créatif",
+            fw: "Œuvres en vedette",
+        },
+        about:{
+            aboutTitle: "à Propos",
         }
     },
     en: {
@@ -17,6 +21,10 @@ const messages= {
         },
         index:{
             title: "Hello, I'm Gabin, <br>Creative Developer",
+            fw: "Featured Works",
+        },
+        about:{
+            aboutTitle: "About",
         }
     }
 }

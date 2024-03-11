@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <script src="./lang/messages.js" type="module"></script>
+    <script src="utils.js" type="module"></script>
     <title>Works Page</title>
 </head>
 
@@ -13,9 +15,9 @@
 
     <nav>
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a class="selected" href="works.html">Works</a>
-            <a href="about.html">About</a>
+            <a id="home" href="index.html"></a>
+            <a id="works" class="selected" href="works.html"></a>
+            <a id="about" href="about.html"></a>
         </div>
         <div>
             <select class="selector" id="lang">

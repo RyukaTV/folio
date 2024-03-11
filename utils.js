@@ -14,14 +14,16 @@ function myfunc(key) {
     return langObject;
 }
 
-function showMessage() {
-    document.getElementById('title').innerHTML= myfunc("index.title");
+function showMessages() {
     document.getElementById('home').innerHTML= myfunc("navbar.home");
     document.getElementById('works').innerHTML= myfunc("navbar.works");
     document.getElementById('about').innerHTML= myfunc("navbar.about");
+    document.getElementById("aboutTitle").textContent= myfunc("about.aboutTitle");
+    document.getElementById('title').innerHTML= myfunc("index.title");
+    document.getElementById('fw').textContent= myfunc("index.fw");
 }
 
-document.body.addEventListener("DOMContentLoaded", showMessage());
+document.body.addEventListener("DOMContentLoaded", showMessages());
 
 document.getElementById("lang").addEventListener("change", (event) => {
     showMessage();
