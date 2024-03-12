@@ -15,16 +15,43 @@ function myfunc(key) {
 }
 
 function showMessages() {
-    document.getElementById('home').innerHTML= myfunc("navbar.home");
-    document.getElementById('works').innerHTML= myfunc("navbar.works");
-    document.getElementById('about').innerHTML= myfunc("navbar.about");
-    document.getElementById("aboutTitle").textContent= myfunc("about.aboutTitle");
-    document.getElementById('title').innerHTML= myfunc("index.title");
-    document.getElementById('fw').textContent= myfunc("index.fw");
+    document.getElementById('home').textContent= myfunc("navbar.home");
+    document.getElementById('works').textContent= myfunc("navbar.works");
+    document.getElementById('about').textContent= myfunc("navbar.about");
+    showIndexMessages();
+    showWorksMessages();
+    showAboutMessages();
+}
+
+function showIndexMessages() {
+    try {
+        document.getElementById('title').innerHTML= myfunc("index.title");
+        document.getElementById('fw').textContent= myfunc("index.fw");
+        document.getElementById("description").textContent= myfunc("index.description");
+        document.getElementById("view").textContent= myfunc("index.view")
+    } catch (error) {      
+    }  
+}
+
+function showWorksMessages(){
+    try {
+        document.getElementById("mainTitle").textContent= myfunc("works.mainTitle");
+    } catch (error) {
+    }
+}
+
+function showAboutMessages() {
+    try {
+        document.getElementById("aboutTitle").textContent= myfunc("about.aboutTitle");
+        document.getElementById("name").textContent= myfunc("about.name");
+        document.getElementById("description").textContent= myfunc("about.description");
+        document.getElementById("contact").innerHTML= myfunc("about.contact");
+    } catch (error) {      
+    }   
 }
 
 document.body.addEventListener("DOMContentLoaded", showMessages());
 
-document.getElementById("lang").addEventListener("change", (event) => {
-    showMessage();
+document.getElementById("lang").addEventListener("change", () => {
+    showMessages();
 });
