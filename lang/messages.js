@@ -6,7 +6,7 @@ const messages= {
             about: "à Propos"
         },
         index:{
-            title: "Bonjour, je m'appelle Gabin, <br>Développeur créatif",
+            title: "Bonjour, je m'appelle Gabin, <br>Développeur full-stack",
             fw: "Œuvres en vedette",
             description: "Je suis un développeur passionné qui crée des logiciels et des applications web et mobiles. Avec une expertise dans le développement front-end, back-end et mobile, je suis toujours à la recherche de défis stimulants pour proposer des solutions innovantes et efficaces.",
             view: "Voir plus",
@@ -28,7 +28,7 @@ const messages= {
             about: "About"
         },
         index:{
-            title: "Hello, I'm Gabin, <br>Creative Developer",
+            title: "Hello, I'm Gabin, <br>Full-Stack Developer",
             fw: "Featured Works",
             description: "I am a passionate developer who creates web and mobile software and applications. With expertise in front-end, back-end and mobile development, I am always looking for stimulating challenges to offer innovative and effective solutions.",
             view: "View all",
