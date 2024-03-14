@@ -13,6 +13,8 @@ const messages= {
         },
         works:{
             mainTitle: "Mes Réalisations",
+            report: "Mes Rapports de Stages",
+            dwlpdf: "Telecharger le pdf",
         },
         about:{
             aboutTitle: "à Propos",
@@ -35,6 +37,8 @@ const messages= {
         },
         works:{
             mainTitle: "My Works",
+            report: "My Internship Reports",
+            dwlpdf: "Download pdf",
         },
         about:{
             aboutTitle: "About",

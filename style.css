@@ -90,6 +90,10 @@ nav .nav-links a.selected{
     border-radius: 140px;
 }
 
+.ml{
+    margin-left: 3%;
+}
+
 .recent{
     padding: 60px 148px;
     background-color: #dbedf2;

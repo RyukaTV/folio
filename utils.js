@@ -36,6 +36,8 @@ function showIndexMessages() {
 function showWorksMessages(){
     try {
         document.getElementById("mainTitle").textContent= myfunc("works.mainTitle");
+        document.getElementById("report").textContent= myfunc("works.report");
+        document.getElementById("dwlpdf").textContent= myfunc("works.dwlpdf")
     } catch (error) {
     }
 }
