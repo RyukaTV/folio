@@ -37,7 +37,8 @@ function showWorksMessages(){
     try {
         document.getElementById("mainTitle").textContent= myfunc("works.mainTitle");
         document.getElementById("report").textContent= myfunc("works.report");
-        document.getElementById("dwlpdf").textContent= myfunc("works.dwlpdf")
+        document.getElementById("dwlpdf").textContent= myfunc("works.dwlpdf");
+        document.getElementById("internTitle").textContent= myfunc("works.internTitle");
     } catch (error) {
     }
 }

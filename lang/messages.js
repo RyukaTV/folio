@@ -15,6 +15,7 @@ const messages= {
             mainTitle: "Mes Réalisations",
             report: "Mes Rapports de Stages",
             dwlpdf: "Telecharger le pdf",
+            internTitle: "Stage de deuxième année",
         },
         about:{
             aboutTitle: "à Propos de moi",
@@ -39,6 +40,7 @@ const messages= {
             mainTitle: "My Works",
             report: "My Internship Reports",
             dwlpdf: "Download pdf",
+            internTitle: "Second year internship",
         },
         about:{
             aboutTitle: "About me",
