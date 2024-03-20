@@ -37,8 +37,14 @@ function showWorksMessages(){
     try {
         document.getElementById("mainTitle").textContent= myfunc("works.mainTitle");
         document.getElementById("report").textContent= myfunc("works.report");
-        document.getElementById("dwlpdf").textContent= myfunc("works.dwlpdf");
-        document.getElementById("internTitle").textContent= myfunc("works.internTitle");
+        
+        var elements = document.getElementsByClassName("dwlpdf");
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].textContent = myfunc(elements[i].className);
+        }
+
+        document.getElementById("internTitle1").textContent= myfunc("works.internTitle1");
+        document.getElementById("internTitle2").textContent= myfunc("works.internTitle2");
     } catch (error) {
     }
 }

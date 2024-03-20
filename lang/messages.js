@@ -1,5 +1,6 @@
 const messages= {
     fr: {
+        dwlpdf: "Telecharger le pdf",
         navbar:{
             home: "Accueil",
             works: "Réalisations",
@@ -14,8 +15,8 @@ const messages= {
         works:{
             mainTitle: "Mes Réalisations",
             report: "Mes Rapports de Stages",
-            dwlpdf: "Telecharger le pdf",
-            internTitle: "Stage de deuxième année",
+            internTitle1: "Stage de deuxième année",
+            internTitle2: "Stage de première année",
         },
         about:{
             aboutTitle: "à Propos de moi",
@@ -25,6 +26,7 @@ const messages= {
         }
     },
     en: {
+        dwlpdf: "Download pdf",
         navbar:{
             home: "Home",
             works: "Works",
@@ -38,9 +40,9 @@ const messages= {
         },
         works:{
             mainTitle: "My Works",
-            report: "My Internship Reports",
-            dwlpdf: "Download pdf",
-            internTitle: "Second year internship",
+            report: "My Internship Reports",       
+            internTitle1: "Second year internship",
+            internTitle2: "First year internship",
         },
         about:{
             aboutTitle: "About me",
