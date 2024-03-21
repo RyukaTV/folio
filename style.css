@@ -168,6 +168,10 @@ nav .nav-links a.selected{
     padding: 40px 290px 0;
 }
 
+.link:hover{
+    color: #303f9f;
+}
+
 .featured .item,
 .works-list .item{
     display: flex;
