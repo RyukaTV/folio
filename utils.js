@@ -25,18 +25,19 @@ function showMessages() {
 
 function showIndexMessages() {
     try {
-        document.getElementById('indextitle').textContent= myfunc("index.btitle")
+        document.getElementById('indextitle').textContent= myfunc("index.btitle");
         document.getElementById('title').innerHTML= myfunc("index.title");
         document.getElementById('fw').textContent= myfunc("index.fw");
         document.getElementById("description").textContent= myfunc("index.description");
-        document.getElementById("view").textContent= myfunc("index.view")
+        document.getElementById("view").textContent= myfunc("index.view");
+        document.getElementById("apidesc").textContent= myfunc("works.apidemo_description");
     } catch (error) {      
     }  
 }
 
 function showWorksMessages(){
     try {
-        document.getElementById('workstitle').textContent= myfunc("works.btitle")
+        document.getElementById('workstitle').textContent= myfunc("works.btitle");
         document.getElementById("mainTitle").textContent= myfunc("works.mainTitle");
         document.getElementById("report").textContent= myfunc("works.report");
         
@@ -44,7 +45,8 @@ function showWorksMessages(){
         for (var i = 0; i < elements.length; i++) {
             elements[i].textContent = myfunc(elements[i].className);
         }
-
+        
+        document.getElementById("description").textContent= myfunc("works.apidemo_description");
         document.getElementById("internTitle1").textContent= myfunc("works.internTitle1");
         document.getElementById("internTitle2").textContent= myfunc("works.internTitle2");
     } catch (error) {
@@ -53,7 +55,7 @@ function showWorksMessages(){
 
 function showAboutMessages() {
     try {
-        document.getElementById('abouttitle').textContent= myfunc("about.btitle")
+        document.getElementById('abouttitle').textContent= myfunc("about.btitle");
         document.getElementById("Title").textContent= myfunc("about.Title");
         document.getElementById("name").textContent= myfunc("about.name");
         document.getElementById("description").textContent= myfunc("about.description");

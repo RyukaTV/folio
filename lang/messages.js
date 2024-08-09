@@ -19,6 +19,7 @@ const messages= {
             internTitle1: "Stage de deuxième année",
             internTitle2: "Stage de première année",
             btitle: "Mes Réalisations",
+            apidemo_description: "Simple exemple d'api java",
         },
         about:{
             Title: "à Propos de moi",
@@ -49,6 +50,7 @@ const messages= {
             internTitle1: "Second year internship",
             internTitle2: "First year internship",
             btitle: "My Works",
+            apidemo_description: "Simple java api example",        
         },
         about:{
             Title: "About me",
