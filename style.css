@@ -586,10 +586,6 @@ footer p{
     .cv-img{
         width: 100%
     }
-    
-    nav{
-        justify-content: center;
-    }
 
     nav .logo{
         display: none;
