@@ -76,10 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
     selectLang.addEventListener("change", () => {
         const selectedLang = selectLang.value;
         localStorage.setItem("selectedLang", selectedLang);
+        showMessages();
     });
-    showMessages();
-});
-
-document.getElementById("lang").addEventListener("change", () => {
     showMessages();
 });
