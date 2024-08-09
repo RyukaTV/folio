@@ -23,6 +23,7 @@ const messages= {
             name: "Je suis Gabin JUILLARD",
             description: "Développeur passionné qui crée des logiciels et des applications web et mobiles. Avec une expertise dans le développement front-end, back-end et mobile, je suis toujours à la recherche de défis stimulants pour proposer des solutions innovantes et efficaces.",
             contact: "Contactez-moi : <a href='mailto:gabinjuillardpro@gmail.com'>gabinjuillardpro@gmail.com</a>",
+            imgsrc:"assets/CV FR.jpg",
         }
     },
     en: {
@@ -49,6 +50,7 @@ const messages= {
             name: "I'm Gabin JUILLARD",
             description: "Passionate developer who creates web and mobile software and applications. With expertise in front-end, back-end and mobile development, I am always looking for stimulating challenges to offer innovative and effective solutions.",
             contact: "Contact Me : <a href='mailto:gabinjuillardpro@gmail.com'>gabinjuillardpro@gmail.com</a>",
+            imgsrc: "assets/CV EN.jpg",
         }
     }
 }

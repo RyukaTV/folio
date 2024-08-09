@@ -55,6 +55,7 @@ function showAboutMessages() {
         document.getElementById("name").textContent= myfunc("about.name");
         document.getElementById("description").textContent= myfunc("about.description");
         document.getElementById("contact").innerHTML= myfunc("about.contact");
+        document.getElementById("cv").src= myfunc("about.imgsrc");
     } catch (error) {      
     }   
 }
