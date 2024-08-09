@@ -14,7 +14,7 @@ function myfunc(key) {
     return langObject;
 }
 
-function showMessages() {
+function showMessages() {   
     document.getElementById('home').textContent= myfunc("navbar.home");
     document.getElementById('works').textContent= myfunc("navbar.works");
     document.getElementById('about').textContent= myfunc("navbar.about");
@@ -25,6 +25,7 @@ function showMessages() {
 
 function showIndexMessages() {
     try {
+        document.getElementById('indextitle').textContent= myfunc("index.btitle")
         document.getElementById('title').innerHTML= myfunc("index.title");
         document.getElementById('fw').textContent= myfunc("index.fw");
         document.getElementById("description").textContent= myfunc("index.description");
@@ -35,6 +36,7 @@ function showIndexMessages() {
 
 function showWorksMessages(){
     try {
+        document.getElementById('workstitle').textContent= myfunc("works.btitle")
         document.getElementById("mainTitle").textContent= myfunc("works.mainTitle");
         document.getElementById("report").textContent= myfunc("works.report");
         
@@ -51,7 +53,8 @@ function showWorksMessages(){
 
 function showAboutMessages() {
     try {
-        document.getElementById("aboutTitle").textContent= myfunc("about.aboutTitle");
+        document.getElementById('abouttitle').textContent= myfunc("about.btitle")
+        document.getElementById("Title").textContent= myfunc("about.Title");
         document.getElementById("name").textContent= myfunc("about.name");
         document.getElementById("description").textContent= myfunc("about.description");
         document.getElementById("contact").innerHTML= myfunc("about.contact");
@@ -60,7 +63,20 @@ function showAboutMessages() {
     }   
 }
 
-document.body.addEventListener("DOMContentLoaded", showMessages());
+document.addEventListener("DOMContentLoaded", () => {
+    const selectLang = document.getElementById("lang");
+    const storedLang = localStorage.getItem("selectedLang");
+    if (storedLang) {
+        selectLang.value = storedLang;
+    } else {
+        selectLang.value = "en"; 
+    }
+    selectLang.addEventListener("change", () => {
+        const selectedLang = selectLang.value;
+        localStorage.setItem("selectedLang", selectedLang);
+    });
+    showMessages();
+});
 
 document.getElementById("lang").addEventListener("change", () => {
     showMessages();
