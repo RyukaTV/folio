@@ -19,7 +19,12 @@ const messages= {
             internTitle1: "Stage de deuxième année",
             internTitle2: "Stage de première année",
             btitle: "Mes Réalisations",
-            apidemo_description: "Simple exemple d'api java",
+            descriptions:{
+                apidemo: "Création d'un simple exemple d'une API en java",
+                postaldev: "Réalisation d'un premier site en Laravel permettant la gestion et le suivi des colis pour améliorer les processus logistiques",
+                memoryGame: "Réalisation d'un jeu de mémoire en JavaFX avec une interface interactive",
+                game: "Réalisation d'un jeu multijoueur en temps réel où des joueurs représentés sur une grille peuvent se déplacer en utilisant les touches directionnelles, avec synchronisation via WebSocket entre un serveur Go et une interface Vue.js",
+            }
         },
         about:{
             Title: "à Propos de moi",
@@ -49,8 +54,13 @@ const messages= {
             report: "My Internship Reports",       
             internTitle1: "Second year internship",
             internTitle2: "First year internship",
-            btitle: "My Works",
-            apidemo_description: "Simple java api example",        
+            btitle: "My Works",     
+            descriptions:{
+                apidemo: "Creating a simple example of an API in Java",
+                postaldev: "Development of a first Laravel-based website for managing and tracking parcels to improve logistics processes",
+                memoryGame: "Creation of a memory game using JavaFX featuring a dynamic interface",
+                game: "Creation of a real-time multiplayer game where players represented on a grid can move using the directional keys, with synchronization via WebSocket between a Go server and a Vue.js interface",
+            }       
         },
         about:{
             Title: "About me",
