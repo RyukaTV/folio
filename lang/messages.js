@@ -24,6 +24,7 @@ const messages= {
                 postaldev: "Réalisation d'un premier site en Laravel permettant la gestion et le suivi des colis pour améliorer les processus logistiques",
                 memoryGame: "Réalisation d'un jeu de mémoire en JavaFX avec une interface interactive",
                 game: "Réalisation d'un jeu multijoueur en temps réel où des joueurs représentés sur une grille peuvent se déplacer en utilisant les touches directionnelles, avec synchronisation via WebSocket entre un serveur Go et une interface Vue.js",
+                pizza: "PizzaExpress est un site web de pizzeria conçu avec PHP, intégrant Symfony pour la gestion du backend et Twig pour le rendu du frontend. Il offre une navigation fluide et optimisée, permettant aux clients de consulter le menu, passer des commandes et gérer leurs préférences en toute simplicité.<br><em>Code source des projets <a style='color: #303f9f;' href='https://github.com/RyukaTV/PizzaExpressAPI' target='_blank'><strong>backend</strong></a> et <a style='color: #303f9f;' href='https://github.com/RyukaTV/PizzaExpress' target='_blank'><strong>frontend</strong></a></em>",
             }
         },
         about:{
@@ -60,6 +61,7 @@ const messages= {
                 postaldev: "Development of a first Laravel-based website for managing and tracking parcels to improve logistics processes",
                 memoryGame: "Creation of a memory game using JavaFX featuring a dynamic interface",
                 game: "Creation of a real-time multiplayer game where players represented on a grid can move using the directional keys, with synchronization via WebSocket between a Go server and a Vue.js interface",
+                pizza: "PizzaExpress is a pizzeria website built with PHP, integrating Symfony for backend management and Twig for frontend rendering. It offers smooth and optimized navigation, allowing customers to browse the menu, place orders, and manage their preferences with ease.<br><em>Source code for the projects: <a style='color: #303f9f;' href='https://github.com/RyukaTV/PizzaExpressAPI' target='_blank'><strong>backend</strong></a> and <a style='color: #303f9f;' href='https://github.com/RyukaTV/PizzaExpress' target='_blank'><strong>frontend</strong></a></em>",
             }       
         },
         about:{

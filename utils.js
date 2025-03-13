@@ -30,7 +30,8 @@ function showIndexMessages() {
         document.getElementById('fw').textContent= myfunc("index.fw");
         document.getElementById("description").textContent= myfunc("index.description");
         document.getElementById("view").textContent= myfunc("index.view");
-        document.getElementById("apidesc").textContent= myfunc("works.descriptions.apidemo");
+        document.getElementById("featuredGame").textContent= myfunc("works.descriptions.game");
+        document.getElementById("featuredPizza").innerHTML= myfunc("works.descriptions.pizza")
     } catch (error) {      
     }  
 }
@@ -50,6 +51,7 @@ function showWorksMessages(){
         document.getElementById("memoryGame").textContent= myfunc("works.descriptions.memoryGame");
         document.getElementById("postaldev").textContent= myfunc("works.descriptions.postaldev");
         document.getElementById("apidemo").textContent= myfunc("works.descriptions.apidemo");
+        document.getElementById("pizza").innerHTML= myfunc("works.descriptions.pizza")
 
         document.getElementById("internTitle1").textContent= myfunc("works.internTitle1");
         document.getElementById("internTitle2").textContent= myfunc("works.internTitle2");
